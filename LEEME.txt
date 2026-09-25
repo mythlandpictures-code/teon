@@ -1,0 +1,41 @@
+TEON — The Embassy of Nature · sitio web
+
+ESTRUCTURA
+  index.html          Versión en inglés (theembassyofnature.org/)
+  es/index.html       Versión en español (theembassyofnature.org/es/)
+  press/index.html    Sala de prensa en inglés (theembassyofnature.org/press/)
+  es/press/index.html Sala de prensa en español (theembassyofnature.org/es/press/)
+  manifesto/          El Manifiesto (inglés; en español: es/manifesto/)
+  government/         Gobierno funcional
+  history/            Historia y origen (Casa de Lises)
+  leadership/         El Directorio · OCULTA: fuera del menú y del sitemap, con noindex
+  documents/          Documentos: registro, Carta, principios, divulgación y cooperación
+                      (inglés; en español: es/documents/)
+  assets/docs/        PDF oficial de la Carta Institucional (TEON/DOC/2024/01)
+  assets/site.css     Todo el diseño (colores, tipografías, espaciados)
+  assets/site.js      Menú móvil, barra de navegación, animaciones y el globo
+  assets/img/         Imágenes en formato WebP, redimensionadas al tamaño en que se muestran
+
+PENDIENTE
+  1. Logo: ya incluido (assets/logo-mark.webp en la barra, assets/logo-full.webp en el pie,
+     favicon.png y apple-touch-icon.png para navegador y móvil).
+  2. Imagen para redes sociales: assets/og-card.jpg (1200 x 630; en JPG porque algunas redes no leen WebP), con el logo sobre negro.
+  3. Vídeo de la portada: ya está en assets/video/ (hero.webm y hero.mp4, con imagen de reserva
+     hero-poster.jpg). La sección de correspondencia no lleva vídeo: solo la imagen del sol sobre rosas.
+  4. X y LinkedIn: añadir los enlaces en la sección de correspondencia cuando existan.
+  4b. Formulario de alistamiento (portada, sección "Entrar en la Embajada"): mientras no haya
+      servicio de formularios, al enviar se abre el correo con los datos hacia info@theembassyofnature.org.
+      Para recibirlos en una bandeja o en una hoja de cálculo, crear un formulario gratuito en
+      formspree.io y pegar su URL en FORM_ENDPOINT, dentro de assets/site.js.
+  4d. Pendiente de confirmar: año de creación del marquesado de Lises (history/).
+  4e. Escudo de la Casa de Lises: ya incluido en assets/img/coat-of-arms.webp (página de Historia).
+  4c. Política de privacidad y Términos de uso: se quitaron del pie hasta que existan esas páginas.
+  5. Imágenes nuevas: guardarlas en WebP (calidad 75 aprox.) y a un ancho máximo de 1200 px
+     para pilares, 1100 px para el Registro y 900 px para Territorios.
+  6. Todos los enlaces llevan a secciones de la portada o a la sala de prensa; ninguno apunta
+     a páginas inexistentes.
+  7. Nuevas notas de prensa: añadirlas en las dos salas de prensa (inglés y español).
+
+CAMBIAR TEXTOS
+  Los textos están directamente en cada index.html. Cambiar un texto en inglés
+  no lo cambia en español: hay que editar los dos archivos.
